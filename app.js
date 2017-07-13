@@ -1,1 +1,3 @@
-ReactDOM.render(<h1>Hello world.</h1>, document.getElementById("react-app"))
+import App from "./modules/main";
+
+ReactDOM.render(<App />, document.getElementById("react-app"))
